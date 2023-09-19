@@ -17,7 +17,7 @@ public class AppSalarioBasicHoras extends JFrame {
 
     public AppSalarioBasicHoras() {
         setContentPane(MainPanel);
-        setTitle("Calculo Horas Trabajadas Empleado");
+        setTitle("Salario Basico Horas");
         setSize(500, 300);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
