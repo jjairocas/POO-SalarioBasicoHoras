@@ -1,7 +1,18 @@
+package AppSalarioBasHoras;
+
 import java.util.*;
 
 public class SalarioBasicoHoras {
+
     public static void main(String[] args) {
+
+        AppSalarioBasicHoras form=new AppSalarioBasicHoras();
+        form.setVisible(true);
+    }
+
+
+}
+    /*public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
 
         System.out.println("Ingrese el nombre del empleado");
@@ -14,7 +25,7 @@ public class SalarioBasicoHoras {
         int Salario=SalarioxHrs*NumHrsTrabajadas;
 
         if(Salario>=450000){
-        //if(SalarioxHrs>=2344 && NumHrsTrabajadas>=192){
+            //if(SalarioxHrs>=2344 && NumHrsTrabajadas>=192){
             System.out.println("El nombre es:"+NombreEmpl+" y el salario es: $"+Salario);
 
         }
@@ -22,5 +33,4 @@ public class SalarioBasicoHoras {
             System.out.println("El nombre es:"+NombreEmpl);
         }
 
-    }
-}
+    }*/
